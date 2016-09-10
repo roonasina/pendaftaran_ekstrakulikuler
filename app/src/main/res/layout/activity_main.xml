@@ -15,36 +15,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pendaftaran Ekstrakulikuler\n"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textColor="@color/accent_material_light" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nama"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/accent_material_light" />
 
     <EditText
         android:layout_width="294dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextnama" />
+        android:id="@+id/editTextnama"
+        android:textColor="@color/accent_material_light" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kelas"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/accent_material_light" />
 
     <Spinner
         android:layout_width="126dp"
         android:layout_height="wrap_content"
         android:id="@+id/spinnerkelas"
-        android:entries="@array/kelas"/>
+        android:entries="@array/kelas"
+        android:background="@color/accent_material_light" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jenis Kelamin"
-        android:id="@+id/textView3" />
+        android:id="@+id/textView3"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/accent_material_light" />
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -56,66 +66,79 @@
             android:layout_height="wrap_content"
             android:text="Laki-Laki"
             android:id="@+id/radioButtonl"
-            android:checked="false" />
+            android:checked="false"
+            android:textColor="@color/accent_material_light" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Perempuan"
             android:id="@+id/radioButtonp"
-            android:checked="false" />
+            android:checked="false"
+            android:textColor="@color/accent_material_light" />
     </RadioGroup>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jenis Ekstrakulikuler"
-        android:id="@+id/textView4" />
+        android:id="@+id/textView4"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/accent_material_light" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Basket"
         android:id="@+id/checkBoxbskt"
-        android:checked="false" />
+        android:checked="false"
+        android:textColor="@color/accent_material_light" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Paduan Suara"
         android:id="@+id/checkBoxps"
-        android:checked="false" />
+        android:checked="false"
+        android:textColor="@color/accent_material_light" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fiber Optik"
         android:id="@+id/checkBoxfo"
-        android:checked="false" />
+        android:checked="false"
+        android:textColor="@color/accent_material_light" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pramukaa"
         android:id="@+id/checkBoxpr"
-        android:checked="false" />
+        android:checked="false"
+        android:textColor="@color/accent_material_light" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tafsir"
         android:id="@+id/checkBoxtfsr"
-        android:checked="false" />
+        android:checked="false"
+        android:textColor="@color/accent_material_light" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="OK"
-        android:id="@+id/buttonok" />
+        android:id="@+id/buttonok"
+        android:background="@color/accent_material_light"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Hasil"
-        android:id="@+id/textViewhasil" />
+        android:id="@+id/textViewhasil"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/accent_material_light" />
 </LinearLayout>
