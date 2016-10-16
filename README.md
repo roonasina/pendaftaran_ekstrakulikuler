@@ -1,9 +1,11 @@
-# pendaftaran_ekstrakulikuler
+# Pendaftaran Ekstrakulikuler
 aplikasi pendaftaran ekstrakulikuler ini sama seperti form pendaftaran biasa
 disini nama harus minimal 3 karakter, jika kurang dari 3 karakter maka akan ada notice
 dalam form calon pendaftar harus mengisi nama, kelas, gender, dan ekstrakulikuler yang dipilih.
 
-link apk : https://drive.google.com/file/d/0BxqlSz97Snz9RFIwUEd1b0JlT0U/view?usp=sharing
+**Link Apk**
+
+https://drive.google.com/file/d/0BxqlSz97Snz9RFIwUEd1b0JlT0U/view?usp=sharing
 
 **Screen Shoot**
 
