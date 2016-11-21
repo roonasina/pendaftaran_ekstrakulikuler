@@ -16,4 +16,8 @@ https://drive.google.com/file/d/0BxqlSz97Snz9RFIwUEd1b0JlT0U/view?usp=sharing
 
 **Identitas**
 
-Anisa' Noor, XIIRPL3, 06, 4292/1190.070, SMK Telkom Malang
+- Nama      Anisa' Noor
+- Kelas     XIIRPL3
+- No. Absen 06
+- NIS       4292/1190.070
+- Sekolah   SMK Telkom Malang
